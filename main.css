@@ -90,6 +90,13 @@ header {
   background-color: #2E4053;
   color: #fff;
 }
+@media (max-width: 767px) {
+  .about-col {
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
 /*
   ========================================
   Typography
