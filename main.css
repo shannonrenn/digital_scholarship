@@ -34,6 +34,10 @@ header {
   width: 30%;
   margin: 13px 13px 30px 13px;
 }
+.header-button:hover {
+  background-color: #424949;
+  color: #fff;
+}
 @media (max-width: 767px) {
   .header-button {
     width: 92%;
@@ -51,7 +55,40 @@ header {
   ========================================
 */
 #about {
-  background-color: #57000a;
+  margin-bottom: 40px;
+}
+.grad {
+    background: #2E4053; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#2E4053, #424949); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#2E4053, #424949); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#2E4053, #424949); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#2E4053, #424949); /* Standard syntax (must be last) */
+}
+.col-md-4 {
+  background-color: #424949;
+  border: 25px solid #fff;
+  border-radius: 45px;
+  display: inline-block;
+  height: 500px;
+  padding-bottom: 60px;
+}
+.about-col {
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-bottom: 60px;
+}
+.col-button {
+  background-color: #fff;
+  border: 0;
+  text-transform: uppercase;
+  padding: 15px 15px;
+  font-size: 12px;
+  width: auto;
+  margin: auto;
+}
+.col-button:hover {
+  background-color: #2E4053;
+  color: #fff;
 }
 /*
   ========================================
@@ -66,10 +103,13 @@ h1 {
 }
 .h2-about {
   color: #fff;
-  margin: 40px 40px;
+  margin: 40px 20px;
   padding-top: 15px;
 }
 .p-about {
+  color: #fff;
+}
+.ul-about {
   color: #fff;
 }
 /*
@@ -91,10 +131,11 @@ h1 {
 .profile-img {
   display: inline-block;
   vertical-align: top;
-  border: 1px solid #dfe2e5;
+  border: 5px solid #dfe2e5;
   border-radius: 5px;
-  margin-top: 40px;
-  padding-bottom: 22px;
+  margin-top: 30px;
+  padding-top: 40px;
+  padding-bottom: 10px;
   text-align: center;
 }
 .profile-img img {
@@ -102,7 +143,4 @@ h1 {
   height: 160px;
   margin: -66px 0 22px 0;
   vertical-align: top;
-}
-ol, ul {
-  list-style: none;
 }
